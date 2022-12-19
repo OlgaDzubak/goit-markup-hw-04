@@ -330,8 +330,6 @@ h1, h2, h3, h4, p {
 .traling-icons-list{
   display: flex;
   padding: 4px 0px;
-  margin: 0 auto;
-  text-align: center;
   justify-content: space-between;
 }
 .traling-icons-item{
@@ -344,8 +342,8 @@ h1, h2, h3, h4, p {
   align-items: center;
   width: 100%;
   height: 100%;
+  
   background-color: var(--iris);
-  background-position: center;
   border-radius: 50%;
 }
 .traling-icons-item-link:hover{
@@ -472,7 +470,6 @@ h1, h2, h3, h4, p {
   height: 100%;
   
   background: var(--black-transp);
-  background-position: center;
   border-radius: 50%;
 }
 .social-media-footer-item-link:hover{
